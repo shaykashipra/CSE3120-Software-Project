@@ -3,5 +3,9 @@
     <style name="Base.Theme.ToDo_List" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <!-- for UI to login page animated transition  -->
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+
     </style>
 </resources>
